@@ -1,0 +1,85 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*                Desktop Design                */
+/*~ ------------------------------------------ ~*/
+
+/* Center the son with flex */
+body {
+    background-color: var(--color-light_gray);
+    color: var(--color-dark_blue);
+    
+    /* FONT */
+    font-family: Outfit, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.188px;
+    text-align: center;
+    /* ----- */
+
+    /* Flex for center childs */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* -------- */
+
+    /* Margin */
+    margin: 25px;
+}
+
+article {
+    background-color: white;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+
+    /**/
+    width: 100%;
+    max-width: 320px;
+    height: 497px;
+    /* ---- */
+
+    /* Flex for center childs */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    /* -------- */
+
+    /* Padding */
+    padding: 16px 16px 40px 16px;
+}
+
+article img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 288px;
+}
+
+/* Text */
+article h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+article p {
+    color: var(--color-gray_blue);
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+/* --------- */
+
+/* ************** ATTRIBUTION ****************/
+/*                                           */
+.attribution { 
+    font-size: 16px;
+    text-align: center; 
+}
+.attribution p{
+    display: flex;
+    gap: 15px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+/*                                           */
+/* *******************************************/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
