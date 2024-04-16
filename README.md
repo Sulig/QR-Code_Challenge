@@ -26,8 +26,8 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [Check My Solution In FrontendMentor](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Check My Solution In FrontendMentor](https://www.frontendmentor.io/solutions/qrcode-challenge-with-flex-L7VEmGEVWl)
+- Live Site URL: [See the live site](https://sulig.github.io/QR-Code_Challenge/)
 
 ### Built with
 
