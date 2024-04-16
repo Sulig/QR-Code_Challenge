@@ -24,6 +24,11 @@ body {
     /* -------- */
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 article {
     background-color: white;
     /* offset-x, offset-y, blur, spread, color */
