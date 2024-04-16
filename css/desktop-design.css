@@ -19,15 +19,8 @@ body {
 
     /* Flex for center childs */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* -------- */
-}
-
-main {
-    /* Flex for center childs */
-    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     /* -------- */
