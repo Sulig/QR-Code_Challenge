@@ -19,10 +19,8 @@ body {
 
     /* Flex for center childs */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
     /* -------- */
 }
 
@@ -69,9 +67,11 @@ article p {
 
 /* ************** ATTRIBUTION ****************/
 /*                                           */
-.attribution { 
+.attribution {
+    position: absolute;
+    bottom: 5%;
     font-size: 16px;
-    text-align: center; 
+    text-align: center;
 }
 .attribution p{
     display: flex;
